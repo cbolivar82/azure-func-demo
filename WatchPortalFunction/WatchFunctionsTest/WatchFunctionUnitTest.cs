@@ -24,7 +24,7 @@ namespace WatchFunctionsTest
               }
           )
       };
-
+      //my comment
       var logger = NullLoggerFactory.Instance.CreateLogger("Null Logger");
 
       var response = WatchPortalFunction.WatchInfo.Run(request, logger);
